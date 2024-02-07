@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>KinderWelt | Inicio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!--Swiper slider css-->
+        <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Layout config Js -->
+        <script src="assets/js/layout.js"></script>
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+        <!-- custom Css-->
+        <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+
+        <style>
+            .listado-busqueda {
+                width: 240px;
+                float: right;
+            }
+            .listado-busqueda input {
+                width: calc(100% - 70px);
+                display: inline-block;
+            }
+        </style>
+
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+        <!-- Begin page -->
+        <div class="layout-wrapper landing">
+            <nav class="navbar navbar-expand-lg bg-light navbar-landing fixed-top job-navbar" id="navbar">
+                <div class="container-fluid custom-container">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/kinderwelt.png" class="card-logo card-logo-dark" alt="logo dark" height="60">
+                        <img src="assets/images/kinderwelt.png" class="card-logo card-logo-light" alt="logo light" height="17">
+                    </a>
+                    <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categorías
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#categoria-hombre">Pijamas</a>
+                                <a class="dropdown-item" href="#categoria-mujer">Vestidos</a>
+                                <a class="dropdown-item" href="#categoria-mujer">Ropa de baños</a>
+                                <a class="dropdown-item" href="#categoria-mujer">Mochilas</a>
+                                <a class="dropdown-item" href="#categoria-mujer">Accesorios</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#findJob">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#candidates">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Ayuda</a>
+                        </li>
+                    </ul>
+        
+                        <div class="">
+                            <a href="#" class="btn btn-soft-success"><i class="ri-user-3-line align-bottom me-1"></i> Iniciar sesión</a>
+                        </div>
+                    </div>
+        
+                </div>
+            </nav>
+            <!-- end navbar -->
+
+
+<section class="section job-hero bg-light pb-0" id="hero">
+    <div class="container">
+        <div class="row justify-content-between align-items-center"><br><br><br><br>
+
+        <!-- <h5 class="fs-20 text-center">Pijamas</h5> -->
+
+            <form action="#" class="job-panel-filter">
+                <div class="row g-md-0 g-2">
+                    <div class="col-md-4">
+                        <div>
+                            <input type="search" id="job-title" class="form-control filter-input-box" placeholder="Escribe tu busqueda...">
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-4">
+                        <div>
+                            <select class="form-control" data-choices="">
+                                <option value="">Selecciona tipo</option>
+                                <option value="Full Time">Todos</option>
+                                <option value="Part Time">Verano</option>
+                                <option value="Freelance">Franela</option>
+                                <option value="Internship">Surf</option>
+                                <option value="Internship">Manga corta</option>
+                                <option value="Internship">Flores</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-4">
+                        <div class="h-100">
+                            <button class="btn btn-primary submit-btn w-100 h-100" type="submit"><i class="ri-search-2-line align-bottom me-1"></i> Buscar</button>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </form>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <!-- <ul class="nav nav-pills filter-btns justify-content-center" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link fw-medium active" type="button" data-filter="todos">Todos</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link fw-medium" type="button" data-filter="verano">Verano</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link fw-medium" type="button" data-filter="franela">Franela</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link fw-medium" type="button" data-filter="surf">Surf</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link fw-medium" type="button" data-filter="manga-corta">Manga corta</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link fw-medium" type="button" data-filter="flores">Flores</button>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="detalles.html">
+                    <div class="col-lg-4 product-item flores todos">
+                        <div class="card explore-box card-animate">
+                            <div class="explore-place-bid-img">
+                                <img src="assets/images/pijamas/pijama7.jpg" alt="" class="card-img-top explore-img" />
+                                <div class="bg-overlay"></div>
+                                <div class="place-bid-btn">
+                                    <button class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</button>
+                            </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="mb-1"><a href="#">Pijama Franela - Nude Flowers</a></h5>
+                                <p class="text-muted mb-0">Niño & Niña</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="col-lg-4 product-item todos verano">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama2.jpg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Chill – Verano</a></h5>
+                            <p class="text-muted mb-0">Hombre & Mujer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 product-item todos verano manga-corta">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama3.jpg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Jelly Fish Manga Corta y Short</a></h5>
+                            <p class="text-muted mb-0">Hombre</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 product-item todos">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama4.jpg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="#">Pijama Jelly Fish</a></h5>
+                            <p class="text-muted mb-0">Mujer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 product-item todos flores">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama5.jpg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Salma Flower</a></h5>
+                            <p class="text-muted mb-0">Hombre & Mujer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 product-item todos">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama6.jpg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Kittens</a></h5>
+                            <p class="text-muted mb-0">Hombre</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 product-item todos franela">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama1.png" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Ghost</a></h5>
+                            <p class="text-muted mb-0">Hombre</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 product-item todos franela">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama8.jpg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Franela - Ladi Rabbit</a></h5>
+                            <p class="text-muted mb-0">Hombre</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 product-item todos franela">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama9.jpg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Franela - Dog Lover</a></h5>
+                            <p class="text-muted mb-0">Hombre</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 product-item todos franela">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama10.jpg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Franela - Light blue Rabbit</a></h5>
+                            <p class="text-muted mb-0">Hombre</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 product-item todos flores franela">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama11.jpg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama - Ramo de Flores</a></h5>
+                            <p class="text-muted mb-0">Hombre</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 product-item todos franela">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama12.jpeg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Zuck</a></h5>
+                            <p class="text-muted mb-0">Hombre</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 product-item todos surf">
+                    <div class="card explore-box card-animate">
+                        <div class="explore-place-bid-img">
+                            <img src="assets/images/pijamas/pijama13.jpeg" alt="" class="card-img-top explore-img" />
+                            <div class="bg-overlay"></div>
+                            <div class="place-bid-btn">
+                                <a href="#!" class="btn btn-success"><i class="ri-eye-fill align-bottom me-1"></i> Vista rapida</a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="mb-1"><a href="apps-nft-item-details.html">Pijama Surf</a></h5>
+                            <p class="text-muted mb-0">Hombre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+    <script src="assets/js/plugins.js"></script>
+
+    <!--Swiper slider js-->
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
+    <!-- landing init -->
+    <script src="assets/js/pages/landing.init.js"></script>
+
+<!-- JAVASCRIPT -->
+        <!-- scripts de admin -->
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/js/pages/job-lading.init.js"></script>
+        <script src="assets/js/pages/ecommerce-product-details.init.js"></script>
+        <script src="assets/js/app.js"></script>
+    <!-- scripts de admin -->
+
+    <!-- inicio scripts -->
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/js/pages/nft-landing.init.js"></script>
+    <!-- inicio scripts -->
+
+
+
+    
+
+</body>
+
+</html>
